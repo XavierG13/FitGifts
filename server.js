@@ -19,7 +19,7 @@ app.use(passport.initialize());
 mongoose
 	.connect(
 		process.env.MONGODB_URI ||
-			'mongodb+srv://XavierG13:Finnick2014@cluster0.kqxpg.mongodb.net/fitgifts?retryWrites=true&w=majority',
+			'',
 		{
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
